@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Testilka : MonoBehaviour
 {
@@ -14,5 +15,19 @@ public class Testilka : MonoBehaviour
     void Update()
     {
         
+    }
+}
+
+public class Pabotka : MonoBehaviour
+{
+    public Text posmotrim;
+    void Start()
+    {
+
+    }
+    int i;
+    public void plus()
+    {
+
     }
 }
