@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3686315098953331084}
   - component: {fileID: 6687839100373257503}
   - component: {fileID: 2391765539677157800}
+  - component: {fileID: 1675149793921968150}
   - component: {fileID: 3550824388750631797}
   m_Layer: 0
   m_Name: Cubabuba
@@ -46,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211471e2292bbe748848516608a3f086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 1
 --- !u!33 &6687839100373257503
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -95,6 +97,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1675149793921968150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6657037342087511104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079149448fa19e34fbccad4e3d8db2f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rere: {fileID: 0}
 --- !u!65 &3550824388750631797
 BoxCollider:
   m_ObjectHideFlags: 0

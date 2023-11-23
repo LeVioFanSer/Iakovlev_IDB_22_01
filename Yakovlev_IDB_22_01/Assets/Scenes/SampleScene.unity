@@ -123,6 +123,27 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &107611374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+  m_PrefabInstance: {fileID: 1243900929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &107611380
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107611374}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &112055617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,21 +151,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1675149793921968150, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: rere
+      value: 
+      objectReference: {fileID: 1399237805}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.45
+      value: -1.42
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.76
+      value: 12.51
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.48
+      value: 0.91
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -178,8 +203,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cubabuba (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: m_TagString
+      value: Fear
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+--- !u!1 &312095824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+  m_PrefabInstance: {fileID: 762115688}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &312095830
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312095824}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &384729791
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,17 +475,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1675149793921968150, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: rere
+      value: 
+      objectReference: {fileID: 1399237805}
+    - target: {fileID: 1675149793921968150, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1211205
+      value: -1.39
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.08
+      value: 6.54
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -473,7 +531,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cubabuba (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: m_TagString
+      value: Fear
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1675149793921968150, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
 --- !u!1 &784493735
 GameObject:
@@ -735,12 +798,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1012835582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+  m_PrefabInstance: {fileID: 6442406507885402887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1012835587
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012835582}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &1227996559 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3686315098953331084, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
   m_PrefabInstance: {fileID: 6442406507885402887}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1012835582}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 211471e2292bbe748848516608a3f086, type: 3}
@@ -753,21 +837,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1675149793921968150, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: rere
+      value: 
+      objectReference: {fileID: 1399237805}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.3
+      value: -1.43
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.16
+      value: 2.798
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.08
+      value: 0.711
       objectReference: {fileID: 0}
     - target: {fileID: 5476720602876542879, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -800,6 +888,10 @@ PrefabInstance:
     - target: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_Name
       value: Cubabuba (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: m_TagString
+      value: Fear
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
@@ -894,9 +986,11 @@ GameObject:
   - component: {fileID: 1732545604}
   - component: {fileID: 1732545603}
   - component: {fileID: 1732545602}
+  - component: {fileID: 1732545606}
+  - component: {fileID: 1732545607}
   m_Layer: 0
   m_Name: Plata
-  m_TagString: Untagged
+  m_TagString: Fear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -978,6 +1072,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1732545606
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732545601}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &1732545607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732545601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1948157212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+  m_PrefabInstance: {fileID: 112055617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1948157218
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948157212}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1984815875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1262,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1675149793921968150, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: rere
+      value: 
+      objectReference: {fileID: 1399237805}
     - target: {fileID: 3686315098953331084, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: isActive
       value: 0
@@ -1169,6 +1317,10 @@ PrefabInstance:
     - target: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
       propertyPath: m_Name
       value: Cubabuba
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657037342087511104, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
+      propertyPath: m_TagString
+      value: Fear
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cf7250e87437d94981f30c19205380f, type: 3}
